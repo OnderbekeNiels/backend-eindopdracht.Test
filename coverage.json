@@ -1,0 +1,2168 @@
+{
+  "backend-eindopdracht-keephealthy.dll": {
+    "D:\\MTS4-2MCT1-WAD\\BackEndDev\\Eindopdracht\\backend-eindopdracht-keephealthy\\Program.cs": {
+      "backend_eindopdracht_keephealthy.Program": {
+        "System.Void backend_eindopdracht_keephealthy.Program::Main(System.String[])": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.Extensions.Hosting.IHostBuilder backend_eindopdracht_keephealthy.Program::CreateHostBuilder(System.String[])": {
+          "Lines": {
+            "20": 1,
+            "21": 1,
+            "22": 1,
+            "23": 1,
+            "24": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MTS4-2MCT1-WAD\\BackEndDev\\Eindopdracht\\backend-eindopdracht-keephealthy\\Startup.cs": {
+      "backend_eindopdracht_keephealthy.Startup": {
+        "Microsoft.Extensions.Configuration.IConfiguration backend_eindopdracht_keephealthy.Startup::get_Configuration()": {
+          "Lines": {
+            "32": 1
+          },
+          "Branches": []
+        },
+        "System.Void backend_eindopdracht_keephealthy.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "36": 1,
+            "38": 1,
+            "39": 1,
+            "42": 1,
+            "43": 1,
+            "44": 1,
+            "45": 1,
+            "46": 1,
+            "49": 1,
+            "50": 1,
+            "51": 1,
+            "52": 1,
+            "54": 1,
+            "56": 1,
+            "58": 1,
+            "59": 1,
+            "60": 1,
+            "61": 1,
+            "62": 1,
+            "63": 1,
+            "64": 1,
+            "65": 1,
+            "66": 2,
+            "68": 1,
+            "69": 1,
+            "70": 1,
+            "71": 2,
+            "73": 1,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 1,
+            "81": 1
+          },
+          "Branches": []
+        },
+        "System.Void backend_eindopdracht_keephealthy.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)": {
+          "Lines": {
+            "85": 1,
+            "86": 1,
+            "87": 1,
+            "88": 1,
+            "89": 1,
+            "90": 2,
+            "91": 1,
+            "93": 1,
+            "95": 1,
+            "97": 1,
+            "99": 1,
+            "101": 1,
+            "102": 1,
+            "103": 1,
+            "104": 2,
+            "105": 1
+          },
+          "Branches": [
+            {
+              "Line": 86,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 86,
+              "Offset": 7,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 86,
+              "Offset": 25,
+              "EndOffset": 27,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 86,
+              "Offset": 25,
+              "EndOffset": 82,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void backend_eindopdracht_keephealthy.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "27": 1,
+            "28": 1,
+            "29": 1,
+            "30": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MTS4-2MCT1-WAD\\BackEndDev\\Eindopdracht\\backend-eindopdracht-keephealthy\\Services\\LoginService.cs": {
+      "backend_eindopdracht_keephealthy.Services.LoginService": {
+        "System.Void backend_eindopdracht_keephealthy.Services.LoginService::.ctor(AutoMapper.IMapper,backend_eindopdracht_keephealthy.Repositories.IUserRepository)": {
+          "Lines": {
+            "20": 32,
+            "21": 32,
+            "22": 32,
+            "23": 32,
+            "24": 32
+          },
+          "Branches": []
+        }
+      },
+      "backend_eindopdracht_keephealthy.Services.LoginService/<LoginWithGoogle>d__3": {
+        "System.Void backend_eindopdracht_keephealthy.Services.LoginService/<LoginWithGoogle>d__3::MoveNext()": {
+          "Lines": {
+            "27": 1,
+            "29": 1,
+            "30": 1,
+            "33": 1,
+            "34": 1,
+            "35": 1,
+            "36": 1,
+            "39": 0,
+            "40": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "47": 1
+          },
+          "Branches": [
+            {
+              "Line": 34,
+              "Offset": 256,
+              "EndOffset": 258,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 34,
+              "Offset": 256,
+              "EndOffset": 271,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "D:\\MTS4-2MCT1-WAD\\BackEndDev\\Eindopdracht\\backend-eindopdracht-keephealthy\\Services\\RegistrationService.cs": {
+      "backend_eindopdracht_keephealthy.Services.RegistrationService": {
+        "System.String backend_eindopdracht_keephealthy.Services.RegistrationService::checkValueWithTopic(System.Double,System.Guid)": {
+          "Lines": {
+            "39": 5,
+            "41": 5,
+            "42": 1,
+            "43": 1,
+            "44": 0,
+            "45": 0,
+            "48": 1,
+            "49": 1,
+            "53": 4,
+            "54": 2,
+            "55": 2,
+            "56": 1,
+            "57": 1,
+            "60": 1,
+            "61": 1,
+            "65": 2,
+            "66": 2,
+            "67": 2,
+            "68": 1,
+            "69": 1,
+            "71": 1,
+            "72": 1,
+            "75": 0,
+            "76": 0,
+            "78": 5
+          },
+          "Branches": [
+            {
+              "Line": 41,
+              "Offset": 19,
+              "EndOffset": 21,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 43,
+              "Offset": 32,
+              "EndOffset": 34,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 43,
+              "Offset": 32,
+              "EndOffset": 48,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 43,
+              "Offset": 51,
+              "EndOffset": 53,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 43,
+              "Offset": 51,
+              "EndOffset": 65,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 41,
+              "Offset": 19,
+              "EndOffset": 77,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 4
+            },
+            {
+              "Line": 53,
+              "Offset": 95,
+              "EndOffset": 97,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 2
+            },
+            {
+              "Line": 55,
+              "Offset": 108,
+              "EndOffset": 110,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 1
+            },
+            {
+              "Line": 55,
+              "Offset": 108,
+              "EndOffset": 124,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 1
+            },
+            {
+              "Line": 55,
+              "Offset": 129,
+              "EndOffset": 131,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 1
+            },
+            {
+              "Line": 55,
+              "Offset": 129,
+              "EndOffset": 140,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 1
+            },
+            {
+              "Line": 53,
+              "Offset": 95,
+              "EndOffset": 149,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 2
+            },
+            {
+              "Line": 65,
+              "Offset": 169,
+              "EndOffset": 171,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 2
+            },
+            {
+              "Line": 67,
+              "Offset": 182,
+              "EndOffset": 184,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 1
+            },
+            {
+              "Line": 67,
+              "Offset": 182,
+              "EndOffset": 198,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 1
+            },
+            {
+              "Line": 67,
+              "Offset": 203,
+              "EndOffset": 205,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 1
+            },
+            {
+              "Line": 67,
+              "Offset": 203,
+              "EndOffset": 214,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 1
+            },
+            {
+              "Line": 65,
+              "Offset": 169,
+              "EndOffset": 223,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void backend_eindopdracht_keephealthy.Services.RegistrationService::.ctor(AutoMapper.IMapper,backend_eindopdracht_keephealthy.Repositories.IRegistrationRepository)": {
+          "Lines": {
+            "30": 32,
+            "31": 32,
+            "32": 32,
+            "33": 32,
+            "35": 32
+          },
+          "Branches": []
+        }
+      },
+      "backend_eindopdracht_keephealthy.Services.RegistrationService/<AddRegistration>d__4": {
+        "System.Void backend_eindopdracht_keephealthy.Services.RegistrationService/<AddRegistration>d__4::MoveNext()": {
+          "Lines": {
+            "81": 5,
+            "83": 5,
+            "84": 5,
+            "85": 8,
+            "86": 3,
+            "87": 3,
+            "89": 2,
+            "90": 2,
+            "91": 2,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "99": 5
+          },
+          "Branches": [
+            {
+              "Line": 85,
+              "Offset": 84,
+              "EndOffset": 89,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 85,
+              "Offset": 84,
+              "EndOffset": 273,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        }
+      },
+      "backend_eindopdracht_keephealthy.Services.RegistrationService/<GetLatestRegistrationByTopic>d__5": {
+        "System.Void backend_eindopdracht_keephealthy.Services.RegistrationService/<GetLatestRegistrationByTopic>d__5::MoveNext()": {
+          "Lines": {
+            "104": 2,
+            "106": 2,
+            "107": 2,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "113": 2
+          },
+          "Branches": []
+        }
+      },
+      "backend_eindopdracht_keephealthy.Services.RegistrationService/<GetLatestRegistrationsByTopic>d__6": {
+        "System.Void backend_eindopdracht_keephealthy.Services.RegistrationService/<GetLatestRegistrationsByTopic>d__6::MoveNext()": {
+          "Lines": {
+            "116": 2,
+            "118": 2,
+            "119": 2,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "125": 2
+          },
+          "Branches": []
+        }
+      },
+      "backend_eindopdracht_keephealthy.Services.RegistrationService/<>c": {
+        "System.DateTime backend_eindopdracht_keephealthy.Services.RegistrationService/<>c::<GetLatestRegistrationsDayTotalByTopic>b__7_0(backend_eindopdracht_keephealthy.DTO.RegistrationDTO)": {
+          "Lines": {
+            "133": 34
+          },
+          "Branches": []
+        }
+      },
+      "backend_eindopdracht_keephealthy.Services.RegistrationService/<GetLatestRegistrationsDayTotalByTopic>d__7": {
+        "System.Void backend_eindopdracht_keephealthy.Services.RegistrationService/<GetLatestRegistrationsDayTotalByTopic>d__7::MoveNext()": {
+          "Lines": {
+            "128": 2,
+            "130": 2,
+            "131": 2,
+            "132": 2,
+            "134": 8,
+            "135": 1,
+            "136": 1,
+            "137": 65,
+            "138": 31,
+            "139": 31,
+            "140": 31,
+            "141": 1,
+            "142": 1,
+            "143": 2,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "149": 2
+          },
+          "Branches": [
+            {
+              "Line": 134,
+              "Offset": 708,
+              "EndOffset": 324,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 137,
+              "Offset": 438,
+              "EndOffset": 377,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 31
+            },
+            {
+              "Line": 137,
+              "Offset": 438,
+              "EndOffset": 440,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 134,
+              "Offset": 708,
+              "EndOffset": 713,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 2
+            }
+          ]
+        }
+      },
+      "backend_eindopdracht_keephealthy.Services.RegistrationService/<DeleteLatestRegistrationFromTopic>d__8": {
+        "System.Void backend_eindopdracht_keephealthy.Services.RegistrationService/<DeleteLatestRegistrationFromTopic>d__8::MoveNext()": {
+          "Lines": {
+            "154": 4,
+            "156": 4,
+            "157": 4,
+            "159": 0,
+            "160": 0,
+            "161": 0,
+            "163": 4
+          },
+          "Branches": []
+        }
+      },
+      "backend_eindopdracht_keephealthy.Services.RegistrationService/<DeleteRegistration>d__9": {
+        "System.Void backend_eindopdracht_keephealthy.Services.RegistrationService/<DeleteRegistration>d__9::MoveNext()": {
+          "Lines": {
+            "166": 1,
+            "168": 1,
+            "169": 1,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "175": 1
+          },
+          "Branches": []
+        }
+      },
+      "backend_eindopdracht_keephealthy.Services.RegistrationService/<DeleteAllRegistrationsFromUserFromTopic>d__10": {
+        "System.Void backend_eindopdracht_keephealthy.Services.RegistrationService/<DeleteAllRegistrationsFromUserFromTopic>d__10::MoveNext()": {
+          "Lines": {
+            "178": 0,
+            "180": 0,
+            "181": 0,
+            "183": 0,
+            "184": 0,
+            "185": 0,
+            "187": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MTS4-2MCT1-WAD\\BackEndDev\\Eindopdracht\\backend-eindopdracht-keephealthy\\Services\\SettingsService.cs": {
+      "backend_eindopdracht_keephealthy.Services.SettingsService": {
+        "System.Void backend_eindopdracht_keephealthy.Services.SettingsService::.ctor(AutoMapper.IMapper,backend_eindopdracht_keephealthy.Repositories.ISleepSettingRepository)": {
+          "Lines": {
+            "22": 32,
+            "23": 32,
+            "24": 32,
+            "25": 32,
+            "26": 32
+          },
+          "Branches": []
+        }
+      },
+      "backend_eindopdracht_keephealthy.Services.SettingsService/<AddSleepSetting>d__3": {
+        "System.Void backend_eindopdracht_keephealthy.Services.SettingsService/<AddSleepSetting>d__3::MoveNext()": {
+          "Lines": {
+            "31": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "41": 0
+          },
+          "Branches": []
+        }
+      },
+      "backend_eindopdracht_keephealthy.Services.SettingsService/<GetSleepSettingByGoogleUserId>d__4": {
+        "System.Void backend_eindopdracht_keephealthy.Services.SettingsService/<GetSleepSettingByGoogleUserId>d__4::MoveNext()": {
+          "Lines": {
+            "45": 2,
+            "47": 2,
+            "48": 2,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "54": 2
+          },
+          "Branches": []
+        }
+      },
+      "backend_eindopdracht_keephealthy.Services.SettingsService/<UpdateSleepSetting>d__5": {
+        "System.Void backend_eindopdracht_keephealthy.Services.SettingsService/<UpdateSleepSetting>d__5::MoveNext()": {
+          "Lines": {
+            "58": 2,
+            "60": 2,
+            "61": 2,
+            "62": 2,
+            "64": 1,
+            "65": 1,
+            "66": 1,
+            "68": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MTS4-2MCT1-WAD\\BackEndDev\\Eindopdracht\\backend-eindopdracht-keephealthy\\Services\\TopicService.cs": {
+      "backend_eindopdracht_keephealthy.Services.TopicService": {
+        "System.Void backend_eindopdracht_keephealthy.Services.TopicService::.ctor(AutoMapper.IMapper,backend_eindopdracht_keephealthy.Repositories.ITopicRepository)": {
+          "Lines": {
+            "20": 32,
+            "21": 32,
+            "22": 32,
+            "23": 32,
+            "24": 32
+          },
+          "Branches": []
+        }
+      },
+      "backend_eindopdracht_keephealthy.Services.TopicService/<GetTopics>d__3": {
+        "System.Void backend_eindopdracht_keephealthy.Services.TopicService/<GetTopics>d__3::MoveNext()": {
+          "Lines": {
+            "27": 1,
+            "29": 1,
+            "30": 1,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "36": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MTS4-2MCT1-WAD\\BackEndDev\\Eindopdracht\\backend-eindopdracht-keephealthy\\Repositories\\RegistrationRepository.cs": {
+      "backend_eindopdracht_keephealthy.Repositories.RegistrationRepository": {
+        "System.Void backend_eindopdracht_keephealthy.Repositories.RegistrationRepository::.ctor(backend_eindopdracht_keephealthy.Data.IHealthContext)": {
+          "Lines": {
+            "28": 64,
+            "29": 64,
+            "30": 64,
+            "31": 64
+          },
+          "Branches": []
+        }
+      },
+      "backend_eindopdracht_keephealthy.Repositories.RegistrationRepository/<AddRegistration>d__2": {
+        "System.Void backend_eindopdracht_keephealthy.Repositories.RegistrationRepository/<AddRegistration>d__2::MoveNext()": {
+          "Lines": {
+            "36": 3,
+            "38": 3,
+            "39": 3,
+            "40": 3,
+            "41": 3,
+            "42": 3,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "49": 3
+          },
+          "Branches": []
+        }
+      },
+      "backend_eindopdracht_keephealthy.Repositories.RegistrationRepository/<GetLatestRegistrationByTopic>d__3": {
+        "System.Void backend_eindopdracht_keephealthy.Repositories.RegistrationRepository/<GetLatestRegistrationByTopic>d__3::MoveNext()": {
+          "Lines": {
+            "54": 2,
+            "56": 2,
+            "57": 2,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "63": 2
+          },
+          "Branches": []
+        }
+      },
+      "backend_eindopdracht_keephealthy.Repositories.RegistrationRepository/<GetLatestRegistrationsByTopic>d__4": {
+        "System.Void backend_eindopdracht_keephealthy.Repositories.RegistrationRepository/<GetLatestRegistrationsByTopic>d__4::MoveNext()": {
+          "Lines": {
+            "66": 4,
+            "68": 4,
+            "69": 4,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "75": 4
+          },
+          "Branches": []
+        }
+      },
+      "backend_eindopdracht_keephealthy.Repositories.RegistrationRepository/<DeleteLatestRegistrationFromTopic>d__5": {
+        "System.Void backend_eindopdracht_keephealthy.Repositories.RegistrationRepository/<DeleteLatestRegistrationFromTopic>d__5::MoveNext()": {
+          "Lines": {
+            "80": 4,
+            "82": 4,
+            "83": 4,
+            "84": 4,
+            "85": 2,
+            "86": 2,
+            "87": 2,
+            "88": 2,
+            "89": 4,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "96": 4
+          },
+          "Branches": [
+            {
+              "Line": 84,
+              "Offset": 491,
+              "EndOffset": 496,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 84,
+              "Offset": 491,
+              "EndOffset": 643,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 4
+            }
+          ]
+        }
+      },
+      "backend_eindopdracht_keephealthy.Repositories.RegistrationRepository/<DeleteRegistration>d__6": {
+        "System.Void backend_eindopdracht_keephealthy.Repositories.RegistrationRepository/<DeleteRegistration>d__6::MoveNext()": {
+          "Lines": {
+            "99": 1,
+            "101": 1,
+            "102": 1,
+            "103": 1,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 1,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "114": 1
+          },
+          "Branches": [
+            {
+              "Line": 103,
+              "Offset": 345,
+              "EndOffset": 350,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 103,
+              "Offset": 345,
+              "EndOffset": 497,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "backend_eindopdracht_keephealthy.Repositories.RegistrationRepository/<DeleteAllRegistrationsFromUserFromTopic>d__7": {
+        "System.Void backend_eindopdracht_keephealthy.Repositories.RegistrationRepository/<DeleteAllRegistrationsFromUserFromTopic>d__7::MoveNext()": {
+          "Lines": {
+            "117": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "129": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MTS4-2MCT1-WAD\\BackEndDev\\Eindopdracht\\backend-eindopdracht-keephealthy\\Repositories\\SleepSettingRepository.cs": {
+      "backend_eindopdracht_keephealthy.Repositories.SleepSettingRepository": {
+        "System.Void backend_eindopdracht_keephealthy.Repositories.SleepSettingRepository::.ctor(backend_eindopdracht_keephealthy.Data.IHealthContext)": {
+          "Lines": {
+            "20": 32,
+            "21": 32,
+            "22": 32,
+            "23": 32
+          },
+          "Branches": []
+        }
+      },
+      "backend_eindopdracht_keephealthy.Repositories.SleepSettingRepository/<AddSleepSetting>d__2": {
+        "System.Void backend_eindopdracht_keephealthy.Repositories.SleepSettingRepository/<AddSleepSetting>d__2::MoveNext()": {
+          "Lines": {
+            "28": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "39": 0
+          },
+          "Branches": []
+        }
+      },
+      "backend_eindopdracht_keephealthy.Repositories.SleepSettingRepository/<GetSleepSettingByGoogleUserId>d__3": {
+        "System.Void backend_eindopdracht_keephealthy.Repositories.SleepSettingRepository/<GetSleepSettingByGoogleUserId>d__3::MoveNext()": {
+          "Lines": {
+            "44": 2,
+            "46": 2,
+            "47": 2,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "53": 2
+          },
+          "Branches": []
+        }
+      },
+      "backend_eindopdracht_keephealthy.Repositories.SleepSettingRepository/<UpdateSleepSetting>d__4": {
+        "System.Void backend_eindopdracht_keephealthy.Repositories.SleepSettingRepository/<UpdateSleepSetting>d__4::MoveNext()": {
+          "Lines": {
+            "58": 2,
+            "60": 2,
+            "61": 2,
+            "62": 2,
+            "63": 2,
+            "64": 2,
+            "65": 1,
+            "68": 0,
+            "69": 0,
+            "72": 1,
+            "73": 1,
+            "74": 1,
+            "77": 1
+          },
+          "Branches": [
+            {
+              "Line": 61,
+              "Offset": 42,
+              "EndOffset": 47,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 61,
+              "Offset": 42,
+              "EndOffset": 199,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "D:\\MTS4-2MCT1-WAD\\BackEndDev\\Eindopdracht\\backend-eindopdracht-keephealthy\\Repositories\\TopicRepository.cs": {
+      "backend_eindopdracht_keephealthy.Repositories.TopicRepository": {
+        "System.Void backend_eindopdracht_keephealthy.Repositories.TopicRepository::.ctor(backend_eindopdracht_keephealthy.Data.IHealthContext)": {
+          "Lines": {
+            "18": 32,
+            "19": 32,
+            "20": 32,
+            "21": 32
+          },
+          "Branches": []
+        }
+      },
+      "backend_eindopdracht_keephealthy.Repositories.TopicRepository/<GetTopics>d__2": {
+        "System.Void backend_eindopdracht_keephealthy.Repositories.TopicRepository/<GetTopics>d__2::MoveNext()": {
+          "Lines": {
+            "24": 1,
+            "26": 1,
+            "27": 1,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "33": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MTS4-2MCT1-WAD\\BackEndDev\\Eindopdracht\\backend-eindopdracht-keephealthy\\Repositories\\UserRepository.cs": {
+      "backend_eindopdracht_keephealthy.Repositories.UserRepository": {
+        "System.Void backend_eindopdracht_keephealthy.Repositories.UserRepository::.ctor(backend_eindopdracht_keephealthy.Data.IHealthContext)": {
+          "Lines": {
+            "20": 32,
+            "21": 32,
+            "22": 32,
+            "23": 32
+          },
+          "Branches": []
+        }
+      },
+      "backend_eindopdracht_keephealthy.Repositories.UserRepository/<AddUser>d__2": {
+        "System.Void backend_eindopdracht_keephealthy.Repositories.UserRepository/<AddUser>d__2::MoveNext()": {
+          "Lines": {
+            "28": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "39": 0
+          },
+          "Branches": []
+        }
+      },
+      "backend_eindopdracht_keephealthy.Repositories.UserRepository/<GetUserByGoogleId>d__3": {
+        "System.Void backend_eindopdracht_keephealthy.Repositories.UserRepository/<GetUserByGoogleId>d__3::MoveNext()": {
+          "Lines": {
+            "44": 1,
+            "46": 1,
+            "47": 1,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "53": 1
+          },
+          "Branches": []
+        }
+      },
+      "backend_eindopdracht_keephealthy.Repositories.UserRepository/<UpdateUsername>d__4": {
+        "System.Void backend_eindopdracht_keephealthy.Repositories.UserRepository/<UpdateUsername>d__4::MoveNext()": {
+          "Lines": {
+            "57": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "67": 0,
+            "68": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "76": 0
+          },
+          "Branches": [
+            {
+              "Line": 60,
+              "Offset": 43,
+              "EndOffset": 48,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 43,
+              "EndOffset": 200,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "D:\\MTS4-2MCT1-WAD\\BackEndDev\\Eindopdracht\\backend-eindopdracht-keephealthy\\Models\\GoogleUser.cs": {
+      "backend_eindopdracht_keephealthy.Models.GoogleUser": {
+        "System.String backend_eindopdracht_keephealthy.Models.GoogleUser::get_GoogleUserId()": {
+          "Lines": {
+            "10": 2
+          },
+          "Branches": []
+        },
+        "backend_eindopdracht_keephealthy.Models.SleepSetting backend_eindopdracht_keephealthy.Models.GoogleUser::get_SleepSetting()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<backend_eindopdracht_keephealthy.Models.Registration> backend_eindopdracht_keephealthy.Models.GoogleUser::get_Registrations()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MTS4-2MCT1-WAD\\BackEndDev\\Eindopdracht\\backend-eindopdracht-keephealthy\\Models\\Registration.cs": {
+      "backend_eindopdracht_keephealthy.Models.Registration": {
+        "System.Guid backend_eindopdracht_keephealthy.Models.Registration::get_RegistrationId()": {
+          "Lines": {
+            "9": 70
+          },
+          "Branches": []
+        },
+        "System.String backend_eindopdracht_keephealthy.Models.Registration::get_GoogleUserId()": {
+          "Lines": {
+            "12": 70
+          },
+          "Branches": []
+        },
+        "System.Guid backend_eindopdracht_keephealthy.Models.Registration::get_TopicId()": {
+          "Lines": {
+            "15": 70
+          },
+          "Branches": []
+        },
+        "backend_eindopdracht_keephealthy.Models.Topic backend_eindopdracht_keephealthy.Models.Registration::get_Topic()": {
+          "Lines": {
+            "18": 70
+          },
+          "Branches": []
+        },
+        "System.Double backend_eindopdracht_keephealthy.Models.Registration::get_Value()": {
+          "Lines": {
+            "22": 70
+          },
+          "Branches": []
+        },
+        "System.DateTime backend_eindopdracht_keephealthy.Models.Registration::get_Time()": {
+          "Lines": {
+            "25": 73
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MTS4-2MCT1-WAD\\BackEndDev\\Eindopdracht\\backend-eindopdracht-keephealthy\\Models\\SleepSetting.cs": {
+      "backend_eindopdracht_keephealthy.Models.SleepSetting": {
+        "System.Guid backend_eindopdracht_keephealthy.Models.SleepSetting::get_SleepSettingId()": {
+          "Lines": {
+            "9": 6
+          },
+          "Branches": []
+        },
+        "System.String backend_eindopdracht_keephealthy.Models.SleepSetting::get_GoogleUserId()": {
+          "Lines": {
+            "12": 4
+          },
+          "Branches": []
+        },
+        "backend_eindopdracht_keephealthy.Models.GoogleUser backend_eindopdracht_keephealthy.Models.SleepSetting::get_GoogleUser()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.String backend_eindopdracht_keephealthy.Models.SleepSetting::get_SleepTime()": {
+          "Lines": {
+            "18": 4
+          },
+          "Branches": []
+        },
+        "System.String backend_eindopdracht_keephealthy.Models.SleepSetting::get_WakeUpTime()": {
+          "Lines": {
+            "21": 4
+          },
+          "Branches": []
+        },
+        "System.Boolean backend_eindopdracht_keephealthy.Models.SleepSetting::get_SendNotifications()": {
+          "Lines": {
+            "24": 4
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MTS4-2MCT1-WAD\\BackEndDev\\Eindopdracht\\backend-eindopdracht-keephealthy\\Models\\Topic.cs": {
+      "backend_eindopdracht_keephealthy.Models.Topic": {
+        "System.Guid backend_eindopdracht_keephealthy.Models.Topic::get_TopicId()": {
+          "Lines": {
+            "10": 71
+          },
+          "Branches": []
+        },
+        "System.String backend_eindopdracht_keephealthy.Models.Topic::get_Description()": {
+          "Lines": {
+            "13": 71
+          },
+          "Branches": []
+        },
+        "System.String backend_eindopdracht_keephealthy.Models.Topic::get_Unit()": {
+          "Lines": {
+            "16": 71
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<backend_eindopdracht_keephealthy.Models.Registration> backend_eindopdracht_keephealthy.Models.Topic::get_Registrations()": {
+          "Lines": {
+            "19": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MTS4-2MCT1-WAD\\BackEndDev\\Eindopdracht\\backend-eindopdracht-keephealthy\\Models\\DevResponses\\CustomResponse.cs": {
+      "backend_eindopdracht_keephealthy.Models.DevResponses.CustomResponse": {
+        "System.String backend_eindopdracht_keephealthy.Models.DevResponses.CustomResponse::get_Title()": {
+          "Lines": {
+            "14": 4
+          },
+          "Branches": []
+        },
+        "System.Int32 backend_eindopdracht_keephealthy.Models.DevResponses.CustomResponse::get_Status()": {
+          "Lines": {
+            "15": 4
+          },
+          "Branches": []
+        },
+        "System.String backend_eindopdracht_keephealthy.Models.DevResponses.CustomResponse::get_Message()": {
+          "Lines": {
+            "16": 4
+          },
+          "Branches": []
+        },
+        "System.Void backend_eindopdracht_keephealthy.Models.DevResponses.CustomResponse::.ctor(System.String,System.Int32,System.String)": {
+          "Lines": {
+            "7": 2,
+            "8": 2,
+            "9": 2,
+            "10": 2,
+            "11": 2,
+            "12": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MTS4-2MCT1-WAD\\BackEndDev\\Eindopdracht\\backend-eindopdracht-keephealthy\\Migrations\\20210421175814_init structure.cs": {
+      "backend_eindopdracht_keephealthy.Migrations.initstructure": {
+        "System.Void backend_eindopdracht_keephealthy.Migrations.initstructure::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0
+          },
+          "Branches": []
+        },
+        "System.Void backend_eindopdracht_keephealthy.Migrations.initstructure::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "119": 0,
+            "120": 0,
+            "122": 0,
+            "123": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MTS4-2MCT1-WAD\\BackEndDev\\Eindopdracht\\backend-eindopdracht-keephealthy\\Migrations\\20210421175814_init structure.Designer.cs": {
+      "backend_eindopdracht_keephealthy.Migrations.initstructure": {
+        "System.Void backend_eindopdracht_keephealthy.Migrations.initstructure::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "159": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "173": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MTS4-2MCT1-WAD\\BackEndDev\\Eindopdracht\\backend-eindopdracht-keephealthy\\Migrations\\HealthContextModelSnapshot.cs": {
+      "backend_eindopdracht_keephealthy.Migrations.HealthContextModelSnapshot": {
+        "System.Void backend_eindopdracht_keephealthy.Migrations.HealthContextModelSnapshot::BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "15": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "159": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "169": 0,
+            "171": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MTS4-2MCT1-WAD\\BackEndDev\\Eindopdracht\\backend-eindopdracht-keephealthy\\DTO\\AutoMapping.cs": {
+      "backend_eindopdracht_keephealthy.DTO.AutoMapping": {
+        "System.Void backend_eindopdracht_keephealthy.DTO.AutoMapping::.ctor()": {
+          "Lines": {
+            "9": 1,
+            "10": 1,
+            "11": 1,
+            "12": 1,
+            "13": 1,
+            "14": 1,
+            "15": 1,
+            "16": 1,
+            "17": 1,
+            "18": 1,
+            "19": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MTS4-2MCT1-WAD\\BackEndDev\\Eindopdracht\\backend-eindopdracht-keephealthy\\DTO\\GoogleUserDTO.cs": {
+      "backend_eindopdracht_keephealthy.DTO.GoogleUserDTO": {
+        "System.String backend_eindopdracht_keephealthy.DTO.GoogleUserDTO::get_GoogleUserId()": {
+          "Lines": {
+            "9": 8
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MTS4-2MCT1-WAD\\BackEndDev\\Eindopdracht\\backend-eindopdracht-keephealthy\\DTO\\RegistrationDayResultDTO.cs": {
+      "backend_eindopdracht_keephealthy.DTO.RegistrationDayResultDTO": {
+        "System.String backend_eindopdracht_keephealthy.DTO.RegistrationDayResultDTO::get_GoogleUserId()": {
+          "Lines": {
+            "9": 2
+          },
+          "Branches": []
+        },
+        "System.Guid backend_eindopdracht_keephealthy.DTO.RegistrationDayResultDTO::get_TopicId()": {
+          "Lines": {
+            "11": 2
+          },
+          "Branches": []
+        },
+        "backend_eindopdracht_keephealthy.DTO.TopicDTO backend_eindopdracht_keephealthy.DTO.RegistrationDayResultDTO::get_Topic()": {
+          "Lines": {
+            "13": 2
+          },
+          "Branches": []
+        },
+        "System.Double backend_eindopdracht_keephealthy.DTO.RegistrationDayResultDTO::get_Value()": {
+          "Lines": {
+            "14": 2
+          },
+          "Branches": []
+        },
+        "System.String backend_eindopdracht_keephealthy.DTO.RegistrationDayResultDTO::get_Time()": {
+          "Lines": {
+            "15": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MTS4-2MCT1-WAD\\BackEndDev\\Eindopdracht\\backend-eindopdracht-keephealthy\\DTO\\RegistrationDTO.cs": {
+      "backend_eindopdracht_keephealthy.DTO.RegistrationDTO": {
+        "System.Guid backend_eindopdracht_keephealthy.DTO.RegistrationDTO::get_RegistrationId()": {
+          "Lines": {
+            "10": 161
+          },
+          "Branches": []
+        },
+        "System.String backend_eindopdracht_keephealthy.DTO.RegistrationDTO::get_GoogleUserId()": {
+          "Lines": {
+            "13": 172
+          },
+          "Branches": []
+        },
+        "System.Guid backend_eindopdracht_keephealthy.DTO.RegistrationDTO::get_TopicId()": {
+          "Lines": {
+            "16": 177
+          },
+          "Branches": []
+        },
+        "backend_eindopdracht_keephealthy.DTO.TopicDTO backend_eindopdracht_keephealthy.DTO.RegistrationDTO::get_Topic()": {
+          "Lines": {
+            "18": 194
+          },
+          "Branches": []
+        },
+        "System.Double backend_eindopdracht_keephealthy.DTO.RegistrationDTO::get_Value()": {
+          "Lines": {
+            "22": 207
+          },
+          "Branches": []
+        },
+        "System.DateTime backend_eindopdracht_keephealthy.DTO.RegistrationDTO::get_Time()": {
+          "Lines": {
+            "23": 196
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MTS4-2MCT1-WAD\\BackEndDev\\Eindopdracht\\backend-eindopdracht-keephealthy\\DTO\\SleepSettingDTO.cs": {
+      "backend_eindopdracht_keephealthy.DTO.SleepSettingDTO": {
+        "System.Guid backend_eindopdracht_keephealthy.DTO.SleepSettingDTO::get_SleepSettingId()": {
+          "Lines": {
+            "8": 22
+          },
+          "Branches": []
+        },
+        "System.String backend_eindopdracht_keephealthy.DTO.SleepSettingDTO::get_GoogleUserId()": {
+          "Lines": {
+            "11": 25
+          },
+          "Branches": []
+        },
+        "System.String backend_eindopdracht_keephealthy.DTO.SleepSettingDTO::get_SleepTime()": {
+          "Lines": {
+            "14": 25
+          },
+          "Branches": []
+        },
+        "System.String backend_eindopdracht_keephealthy.DTO.SleepSettingDTO::get_WakeUpTime()": {
+          "Lines": {
+            "17": 25
+          },
+          "Branches": []
+        },
+        "System.Boolean backend_eindopdracht_keephealthy.DTO.SleepSettingDTO::get_SendNotifications()": {
+          "Lines": {
+            "20": 23
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MTS4-2MCT1-WAD\\BackEndDev\\Eindopdracht\\backend-eindopdracht-keephealthy\\DTO\\TopicDTO.cs": {
+      "backend_eindopdracht_keephealthy.DTO.TopicDTO": {
+        "System.Guid backend_eindopdracht_keephealthy.DTO.TopicDTO::get_TopicId()": {
+          "Lines": {
+            "8": 134
+          },
+          "Branches": []
+        },
+        "System.String backend_eindopdracht_keephealthy.DTO.TopicDTO::get_Description()": {
+          "Lines": {
+            "11": 134
+          },
+          "Branches": []
+        },
+        "System.String backend_eindopdracht_keephealthy.DTO.TopicDTO::get_Unit()": {
+          "Lines": {
+            "14": 134
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MTS4-2MCT1-WAD\\BackEndDev\\Eindopdracht\\backend-eindopdracht-keephealthy\\Data\\HealthContext.cs": {
+      "backend_eindopdracht_keephealthy.Data.HealthContext": {
+        "Microsoft.EntityFrameworkCore.DbSet`1<backend_eindopdracht_keephealthy.Models.GoogleUser> backend_eindopdracht_keephealthy.Data.HealthContext::get_GoogleUsers()": {
+          "Lines": {
+            "23": 161
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<backend_eindopdracht_keephealthy.Models.Topic> backend_eindopdracht_keephealthy.Data.HealthContext::get_Topics()": {
+          "Lines": {
+            "24": 161
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<backend_eindopdracht_keephealthy.Models.Registration> backend_eindopdracht_keephealthy.Data.HealthContext::get_Registrations()": {
+          "Lines": {
+            "25": 176
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<backend_eindopdracht_keephealthy.Models.SleepSetting> backend_eindopdracht_keephealthy.Data.HealthContext::get_SleepSettings()": {
+          "Lines": {
+            "26": 164
+          },
+          "Branches": []
+        },
+        "System.Void backend_eindopdracht_keephealthy.Data.HealthContext::OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)": {
+          "Lines": {
+            "36": 20,
+            "37": 20,
+            "38": 20
+          },
+          "Branches": []
+        },
+        "System.Void backend_eindopdracht_keephealthy.Data.HealthContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "41": 1,
+            "43": 1,
+            "48": 1,
+            "49": 1,
+            "50": 1,
+            "52": 1,
+            "53": 1,
+            "54": 1,
+            "55": 1
+          },
+          "Branches": []
+        },
+        "System.Void backend_eindopdracht_keephealthy.Data.HealthContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<backend_eindopdracht_keephealthy.Data.HealthContext>,Microsoft.Extensions.Options.IOptions`1<backend_eindopdracht_keephealthy.Configuration.ConnectionStrings>)": {
+          "Lines": {
+            "30": 160,
+            "31": 160,
+            "32": 160,
+            "33": 160
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MTS4-2MCT1-WAD\\BackEndDev\\Eindopdracht\\backend-eindopdracht-keephealthy\\Controllers\\HealthController.cs": {
+      "backend_eindopdracht_keephealthy.Controllers.HealthController": {
+        "System.Void backend_eindopdracht_keephealthy.Controllers.HealthController::.ctor(backend_eindopdracht_keephealthy.Services.ILoginService,backend_eindopdracht_keephealthy.Services.IRegistrationService,backend_eindopdracht_keephealthy.Services.ISettingsService,backend_eindopdracht_keephealthy.Services.ITopicService,backend_eindopdracht_keephealthy.Repositories.IRegistrationRepository)": {
+          "Lines": {
+            "29": 32,
+            "30": 32,
+            "31": 32,
+            "32": 32,
+            "33": 32,
+            "34": 32,
+            "35": 32,
+            "36": 32
+          },
+          "Branches": []
+        }
+      },
+      "backend_eindopdracht_keephealthy.Controllers.HealthController/<Login>d__7": {
+        "System.Void backend_eindopdracht_keephealthy.Controllers.HealthController/<Login>d__7::MoveNext()": {
+          "Lines": {
+            "43": 1,
+            "45": 1,
+            "46": 1,
+            "47": 1,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "53": 1
+          },
+          "Branches": []
+        }
+      },
+      "backend_eindopdracht_keephealthy.Controllers.HealthController/<AddRegistration>d__8": {
+        "System.Void backend_eindopdracht_keephealthy.Controllers.HealthController/<AddRegistration>d__8::MoveNext()": {
+          "Lines": {
+            "58": 5,
+            "60": 5,
+            "61": 5,
+            "62": 5,
+            "63": 3,
+            "64": 3,
+            "66": 2,
+            "67": 2,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "74": 5
+          },
+          "Branches": [
+            {
+              "Line": 62,
+              "Offset": 173,
+              "EndOffset": 175,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 62,
+              "Offset": 173,
+              "EndOffset": 206,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        }
+      },
+      "backend_eindopdracht_keephealthy.Controllers.HealthController/<AddSleepSetting>d__9": {
+        "System.Void backend_eindopdracht_keephealthy.Controllers.HealthController/<AddSleepSetting>d__9::MoveNext()": {
+          "Lines": {
+            "79": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "89": 0
+          },
+          "Branches": []
+        }
+      },
+      "backend_eindopdracht_keephealthy.Controllers.HealthController/<GetLatestRegistrationByTopic>d__10": {
+        "System.Void backend_eindopdracht_keephealthy.Controllers.HealthController/<GetLatestRegistrationByTopic>d__10::MoveNext()": {
+          "Lines": {
+            "96": 2,
+            "98": 2,
+            "99": 2,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "105": 2
+          },
+          "Branches": []
+        }
+      },
+      "backend_eindopdracht_keephealthy.Controllers.HealthController/<GetLatestRegistrationsByTopic>d__11": {
+        "System.Void backend_eindopdracht_keephealthy.Controllers.HealthController/<GetLatestRegistrationsByTopic>d__11::MoveNext()": {
+          "Lines": {
+            "110": 2,
+            "113": 2,
+            "114": 2,
+            "115": 2,
+            "116": 1,
+            "117": 1,
+            "120": 1,
+            "121": 1,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "128": 2
+          },
+          "Branches": [
+            {
+              "Line": 115,
+              "Offset": 172,
+              "EndOffset": 174,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 115,
+              "Offset": 172,
+              "EndOffset": 190,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 115,
+              "Offset": 195,
+              "EndOffset": 197,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 115,
+              "Offset": 195,
+              "EndOffset": 216,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "backend_eindopdracht_keephealthy.Controllers.HealthController/<GetLatestRegistrationsDayTotalByTopic>d__12": {
+        "System.Void backend_eindopdracht_keephealthy.Controllers.HealthController/<GetLatestRegistrationsDayTotalByTopic>d__12::MoveNext()": {
+          "Lines": {
+            "134": 2,
+            "136": 2,
+            "137": 2,
+            "138": 2,
+            "139": 1,
+            "140": 1,
+            "143": 1,
+            "144": 1,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "151": 2
+          },
+          "Branches": [
+            {
+              "Line": 138,
+              "Offset": 172,
+              "EndOffset": 174,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 138,
+              "Offset": 172,
+              "EndOffset": 190,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 138,
+              "Offset": 195,
+              "EndOffset": 197,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 138,
+              "Offset": 195,
+              "EndOffset": 216,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "backend_eindopdracht_keephealthy.Controllers.HealthController/<GetSleepSettingByGoogleUserId>d__13": {
+        "System.Void backend_eindopdracht_keephealthy.Controllers.HealthController/<GetSleepSettingByGoogleUserId>d__13::MoveNext()": {
+          "Lines": {
+            "156": 2,
+            "158": 2,
+            "159": 2,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "165": 2
+          },
+          "Branches": []
+        }
+      },
+      "backend_eindopdracht_keephealthy.Controllers.HealthController/<GetTopics>d__14": {
+        "System.Void backend_eindopdracht_keephealthy.Controllers.HealthController/<GetTopics>d__14::MoveNext()": {
+          "Lines": {
+            "170": 1,
+            "172": 1,
+            "173": 1,
+            "174": 1,
+            "175": 0,
+            "176": 0,
+            "179": 1,
+            "180": 1,
+            "183": 0,
+            "184": 0,
+            "185": 0,
+            "187": 1
+          },
+          "Branches": [
+            {
+              "Line": 174,
+              "Offset": 172,
+              "EndOffset": 174,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 174,
+              "Offset": 172,
+              "EndOffset": 193,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "backend_eindopdracht_keephealthy.Controllers.HealthController/<UpdateSleepSetting>d__15": {
+        "System.Void backend_eindopdracht_keephealthy.Controllers.HealthController/<UpdateSleepSetting>d__15::MoveNext()": {
+          "Lines": {
+            "194": 2,
+            "196": 2,
+            "197": 2,
+            "199": 1,
+            "200": 1,
+            "201": 1,
+            "203": 2
+          },
+          "Branches": []
+        }
+      },
+      "backend_eindopdracht_keephealthy.Controllers.HealthController/<DeleteLatestRegistrationFromTopic>d__16": {
+        "System.Void backend_eindopdracht_keephealthy.Controllers.HealthController/<DeleteLatestRegistrationFromTopic>d__16::MoveNext()": {
+          "Lines": {
+            "209": 4,
+            "211": 4,
+            "212": 4,
+            "213": 4,
+            "214": 2,
+            "215": 2,
+            "217": 2,
+            "219": 0,
+            "220": 0,
+            "221": 0,
+            "223": 4
+          },
+          "Branches": [
+            {
+              "Line": 213,
+              "Offset": 179,
+              "EndOffset": 181,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 213,
+              "Offset": 179,
+              "EndOffset": 200,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        }
+      },
+      "backend_eindopdracht_keephealthy.Controllers.HealthController/<DeleteRegistration>d__17": {
+        "System.Void backend_eindopdracht_keephealthy.Controllers.HealthController/<DeleteRegistration>d__17::MoveNext()": {
+          "Lines": {
+            "228": 1,
+            "230": 1,
+            "231": 1,
+            "232": 1,
+            "233": 1,
+            "234": 1,
+            "236": 0,
+            "238": 0,
+            "239": 0,
+            "240": 0,
+            "242": 1
+          },
+          "Branches": [
+            {
+              "Line": 232,
+              "Offset": 173,
+              "EndOffset": 175,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 232,
+              "Offset": 173,
+              "EndOffset": 194,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "backend_eindopdracht_keephealthy.Controllers.HealthController/<DeleteAllRegistrationsFromUserFromTopic>d__18": {
+        "System.Void backend_eindopdracht_keephealthy.Controllers.HealthController/<DeleteAllRegistrationsFromUserFromTopic>d__18::MoveNext()": {
+          "Lines": {
+            "247": 0,
+            "249": 0,
+            "250": 0,
+            "251": 0,
+            "252": 0,
+            "253": 0,
+            "255": 0,
+            "257": 0,
+            "258": 0,
+            "259": 0,
+            "261": 0
+          },
+          "Branches": [
+            {
+              "Line": 251,
+              "Offset": 184,
+              "EndOffset": 186,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 251,
+              "Offset": 184,
+              "EndOffset": 205,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "D:\\MTS4-2MCT1-WAD\\BackEndDev\\Eindopdracht\\backend-eindopdracht-keephealthy\\Configuration\\ConnectionStrings.cs": {
+      "backend_eindopdracht_keephealthy.Configuration.ConnectionStrings": {
+        "System.String backend_eindopdracht_keephealthy.Configuration.ConnectionStrings::get_SQL()": {
+          "Lines": {
+            "7": 22
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
