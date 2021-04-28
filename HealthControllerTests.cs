@@ -5,6 +5,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using backend_eindopdracht_keephealthy.DTO;
+using backend_eindopdracht_keephealthy.Services;
 using FluentAssertions;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Newtonsoft.Json;
@@ -185,21 +186,21 @@ namespace backend_eindopdrachts.Test
 
         // ! kan maar 1x getest worden
 
-        // [Fact]
-        // public async Task Add_Sleep_Setting_Should_Be_201()
-        // {
-        //     var user = new SleepSettingDTO()
-        //     {
-        //         GoogleUserId = "qdVxjYLu464sd654fBhOcncgB5jJ43",
-        //         SleepTime = "23:00", 
-        //         WakeUpTime = "07:45"
-        //     };
+        [Fact]
+        public async Task Add_Sleep_Setting_Should_Be_201()
+        {
+            var user = new SleepSettingDTO()
+            {
+                GoogleUserId = "qdVxjYLu464sd654fBhOcncgB5jJ43",
+                SleepTime = "23:00",
+                WakeUpTime = "07:45"
+            };
 
-        //     string json = JsonConvert.SerializeObject(user);
+            string json = JsonConvert.SerializeObject(user);
 
-        //     var response = await Client.PostAsync("api/settings/sleepsetting", new StringContent(json, Encoding.UTF8, "application/json"));
-        //     response.StatusCode.Should().Be(HttpStatusCode.Created);
-        // }
+            var response = await Client.PostAsync("api/settings/sleepsetting", new StringContent(json, Encoding.UTF8, "application/json"));
+            response.StatusCode.Should().Be(HttpStatusCode.Created);
+        }
 
         [Fact]
         public async Task Add_Sleep_Setting_Without_WakeUpTime_Should_Be_400()
@@ -263,9 +264,6 @@ namespace backend_eindopdrachts.Test
         //     var response = await Client.PostAsync("api/settings/sleepsetting", new StringContent(json, Encoding.UTF8, "application/json"));
         //     response.StatusCode.Should().Be(HttpStatusCode.BadRequest);
         // }
-
-
-
 
 
         // ? READ
@@ -365,24 +363,26 @@ namespace backend_eindopdrachts.Test
 
         // ? UPDATE
 
-        [Fact]
-        public async Task Update_Sleep_Settings_From_User_Should_Be_200()
-        {
+        // ! Kan pas getest worden wanneer er een registratie is met een bepaald Id
 
-            var sleepSetting = new SleepSettingDTO()
-            {
-                SleepSettingId = Guid.Parse("fe396c4b-f7c7-4ac2-8f3e-08d909a9f2d2"),
-                GoogleUserId = "qdVxjYLu464sd654fBhOcncgB5jJ43",
-                SleepTime = "23:00",
-                WakeUpTime = "07:00",
-                SendNotifications = true
-            };
+        // [Fact]
+        // public async Task Update_Sleep_Settings_From_User_Should_Be_200()
+        // {
 
-            string json = JsonConvert.SerializeObject(sleepSetting);
+        //     var sleepSetting = new SleepSettingDTO()
+        //     {
+        //         SleepSettingId = Guid.Parse("fe396c4b-f7c7-4ac2-8f3e-08d909a9f2d2"),
+        //         GoogleUserId = "qdVxjYLu464sd654fBhOcncgB5jJ43",
+        //         SleepTime = "23:00",
+        //         WakeUpTime = "07:00",
+        //         SendNotifications = true
+        //     };
 
-            var response = await Client.PutAsync("api/settings/sleepsetting", new StringContent(json, Encoding.UTF8, "application/json"));
-            response.StatusCode.Should().Be(HttpStatusCode.OK);
-        }
+        //     string json = JsonConvert.SerializeObject(sleepSetting);
+
+        //     var response = await Client.PutAsync("api/settings/sleepsetting", new StringContent(json, Encoding.UTF8, "application/json"));
+        //     response.StatusCode.Should().Be(HttpStatusCode.OK);
+        // }
 
         [Fact]
         public async Task Update_Sleep_Settings_From_User_Without_RegistrationId_Should_Be_500()
@@ -411,34 +411,35 @@ namespace backend_eindopdrachts.Test
         }
 
         [Fact]
+        // with wrong topic id
         public async Task Delete_Latest_Registration_From_User_From_Topic_Should_Be_404()
         {
             var response = await Client.DeleteAsync("api/registration/latest/9be26ee9-ef1c-5555-b6ea-82a40efa6bf0/qdVxjYLu464sd654fBhOcncgB5jJ43");
             response.StatusCode.Should().Be(HttpStatusCode.NotFound);
         }
 
-        // ! Werkt eenmalig door 1 specifiek Id
+        // //! Werkt eenmalig door 1 specifiek Id
 
         // [Fact]
         // public async Task Delete_Registration_From_User_With_RegistrationId_Should_Be_204()
         // {
-        //     var response = await Client.DeleteAsync("api/registration/dccf51e1-90a8-4132-15ca-08d909ab4f76");
+        //     var response = await Client.DeleteAsync("api/registration/02fade1d-c0bb-4f09-ad27-08d908d7e3f5");
         //     response.StatusCode.Should().Be(HttpStatusCode.NoContent);
         // }
 
-        [Fact]
-        public async Task Delete_Registration_From_User_With_RegistrationId_Should_Be_404()
-        {
-            var response = await Client.DeleteAsync("api/registration/dccf51e1-90a8-5555-15ca-08d909ab4f76");
-            response.StatusCode.Should().Be(HttpStatusCode.NotFound);
-        }
+        // [Fact]
+        // public async Task Delete_Registration_From_User_With_RegistrationId_Should_Be_404()
+        // {
+        //     var response = await Client.DeleteAsync("api/registration/dccf51e1-90a8-5555-15ca-08d909ab4f76");
+        //     response.StatusCode.Should().Be(HttpStatusCode.NotFound);
+        // }
 
-        [Fact]
-        public async Task Delete_All_Registration_From_User_From_Topic_Should_Be_204()
-        {
-            var response = await Client.DeleteAsync("api/registration/9be26ee9-ef1c-4af0-b6ea-82a40efa6bf0/qdVxjYLu464sd654fBhOcncgB5jJ43");
-            response.StatusCode.Should().Be(HttpStatusCode.NoContent);
-        }
+        // [Fact]
+        // public async Task Delete_All_Registration_From_User_From_Topic_Should_Be_204()
+        // {
+        //     var response = await Client.DeleteAsync("api/registration/9be26ee9-ef1c-4af0-b6ea-82a40efa6bf0/qdVxjYLu464sd654fBhOcncgB5jJ43");
+        //     response.StatusCode.Should().Be(HttpStatusCode.NoContent);
+        // }
 
         [Fact]
         public async Task Delete_All_Registration_From_User_From_Topic_Should_Be_404()
@@ -447,6 +448,21 @@ namespace backend_eindopdrachts.Test
             response.StatusCode.Should().Be(HttpStatusCode.NotFound);
         }
 
+        // ! Unit tests
+
+        // [Fact]
+        // public async Task Get_Registrations_DayTotals_Should_Count_1()
+        // {
+        //     List<RegistrationDayResultDTO> registrations = await _registrationService.GetLatestRegistrationsDayTotalByTopic(Guid.Parse("226955be-d921-4f40-8e0c-1578a9170784"), "unitTestId-54564646");
+        //     Assert.Equal<int>(1,registrations.Count);
+        // }
+
+        // [Fact]
+        // public async Task Get_Registrations_DayTotals_Should_Be_0_75()
+        // {
+        //     List<RegistrationDayResultDTO> registrations = await _registrationService.GetLatestRegistrationsDayTotalByTopic(Guid.Parse("226955be-d921-4f40-8e0c-1578a9170784"), "unitTestId-54564646");
+        //     Assert.Equal<double>(0.75, registrations[0].Value);
+        // }
 
     }
 }

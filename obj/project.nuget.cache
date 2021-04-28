@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3fav402J9BYwmz45KBgQ/RghSqEPNiid/Y/0gOO/51PJCxyMaO7BwNeyMQu7zUJtpIMhCnT7D26MJOgLBjcM6Q==",
+  "dgSpecHash": "n69schOFar1mOrw3MGDB70EFKxFoz+w2JMuNuPqyEdND2bFLfddgdChG1x2Gsl5qHThzMY6xF6vrsiO335dcbQ==",
   "success": true,
   "projectFilePath": "D:\\MTS4-2MCT1-WAD\\BackEndDev\\Eindopdracht\\backend-eindopdracht.Test\\backend-eindopdracht.Test.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\niels\\.nuget\\packages\\coverlet.collector\\3.0.3\\coverlet.collector.3.0.3.nupkg.sha512",
     "C:\\Users\\niels\\.nuget\\packages\\coverlet.msbuild\\3.0.3\\coverlet.msbuild.3.0.3.nupkg.sha512",
     "C:\\Users\\niels\\.nuget\\packages\\fluentassertions\\5.10.3\\fluentassertions.5.10.3.nupkg.sha512",
+    "C:\\Users\\niels\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\5.0.5\\microsoft.aspnetcore.authentication.google.5.0.5.nupkg.sha512",
     "C:\\Users\\niels\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.5\\microsoft.aspnetcore.authentication.jwtbearer.5.0.5.nupkg.sha512",
     "C:\\Users\\niels\\.nuget\\packages\\microsoft.aspnetcore.mvc.testing\\5.0.4\\microsoft.aspnetcore.mvc.testing.5.0.4.nupkg.sha512",
     "C:\\Users\\niels\\.nuget\\packages\\microsoft.aspnetcore.testhost\\5.0.4\\microsoft.aspnetcore.testhost.5.0.4.nupkg.sha512",

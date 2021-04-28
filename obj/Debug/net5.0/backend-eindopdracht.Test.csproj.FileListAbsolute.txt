@@ -429,3 +429,4 @@ D:\MTS4-2MCT1-WAD\BackEndDev\Eindopdracht\backend-eindopdracht.Test\obj\Debug\ne
 D:\MTS4-2MCT1-WAD\BackEndDev\Eindopdracht\backend-eindopdracht.Test\obj\Debug\net5.0\backend-eindopdracht.Test.pdb
 D:\MTS4-2MCT1-WAD\BackEndDev\Eindopdracht\backend-eindopdracht.Test\obj\Debug\net5.0\backend-eindopdracht.Test.genruntimeconfig.cache
 D:\MTS4-2MCT1-WAD\BackEndDev\Eindopdracht\backend-eindopdracht.Test\bin\Debug\net5.0\CoverletSourceRootsMapping
+D:\MTS4-2MCT1-WAD\BackEndDev\Eindopdracht\backend-eindopdracht.Test\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.Google.dll

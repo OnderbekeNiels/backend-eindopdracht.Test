@@ -376,6 +376,17 @@
           "lib/netcoreapp2.1/FluentAssertions.dll": {}
         }
       },
+      "Microsoft.AspNetCore.Authentication.Google/5.0.5": {
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "assemblyVersion": "5.0.5.0",
+            "fileVersion": "5.0.521.16708"
+          }
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.AspNetCore.Authentication.Google.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.5": {
         "dependencies": {
           "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.7.1"
@@ -2284,6 +2295,7 @@
         "dependencies": {
           "AutoMapper": "10.1.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.0",
+          "Microsoft.AspNetCore.Authentication.Google": "5.0.5",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.4",
           "Swashbuckle.AspNetCore": "5.6.3"
@@ -4017,6 +4029,13 @@
       "sha512": "sha512-gVPEVp1hLVqcv+7Q2wiDf7kqCNn7+bQcQ0jbJ2mcRT6CeRoZl1tNkqvzSIhvekyldDptk77j1b03MXTTRIqqpg==",
       "path": "fluentassertions/5.10.3",
       "hashPath": "fluentassertions.5.10.3.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.Google/5.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6S5xW1Nxex6LmO+QKFSxw4oGT0Z2jBtRVOZfyjiatLgMX4mjRSqXEqyHvqADvmSEg5yEGdVSR/A3j4jbOhm6ag==",
+      "path": "microsoft.aspnetcore.authentication.google/5.0.5",
+      "hashPath": "microsoft.aspnetcore.authentication.google.5.0.5.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.5": {
       "type": "package",
