@@ -254,24 +254,6 @@ namespace backend_eindopdrachts.Test
             response.StatusCode.Should().Be(HttpStatusCode.BadRequest);
         }
 
-        // ! Vragen waarom hij hier toch geen fout op geeft? Omdat het een bool is?
-
-        // [Fact]
-        // public async Task Add_Sleep_Setting_Without_SendNotifi_Should_Be_400()
-        // {
-        //     var user = new SleepSettingDTO()
-        //     {
-        //         GoogleUserId = USER_ID_REAL,
-        //         SleepTime = "23:00", 
-        //         WakeUpTime = "07:45"
-        //     };
-
-        //     string json = JsonConvert.SerializeObject(user);
-
-        //     var response = await Client.PostAsync("api/settings/sleepsetting", new StringContent(json, Encoding.UTF8, "application/json"));
-        //     response.StatusCode.Should().Be(HttpStatusCode.BadRequest);
-        // }
-
 
         // ? READ
 
@@ -456,22 +438,5 @@ namespace backend_eindopdrachts.Test
         //     var response = await Client.DeleteAsync($"api/registration/{TOPIC_ID_FAKE}/{USER_ID_REAL}");
         //     response.StatusCode.Should().Be(HttpStatusCode.NotFound);
         // }
-
-        // ! Unit tests
-
-        // [Fact]
-        // public async Task Get_Registrations_DayTotals_Should_Count_1()
-        // {
-        //     List<RegistrationDayResultDTO> registrations = await _registrationService.GetLatestRegistrationsDayTotalByTopic(Guid.Parse(StaticTopics.Water_TopicId), "unitTestId-54564646");
-        //     Assert.Equal<int>(1,registrations.Count);
-        // }
-
-        // [Fact]
-        // public async Task Get_Registrations_DayTotals_Should_Be_0_75()
-        // {
-        //     List<RegistrationDayResultDTO> registrations = await _registrationService.GetLatestRegistrationsDayTotalByTopic(Guid.Parse(StaticTopics.Water_TopicId), "unitTestId-54564646");
-        //     Assert.Equal<double>(0.75, registrations[0].Value);
-        // }
-
     }
 }

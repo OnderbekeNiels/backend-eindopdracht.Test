@@ -136,6 +136,157 @@
         }
       }
     },
+    "D:\\MTS4-2MCT1-WAD\\BackEndDev\\Eindopdracht\\backend-eindopdracht-keephealthy\\Services\\CalculationService.cs": {
+      "backend_eindopdracht_keephealthy.Services.CalculationService": {
+        "System.Collections.Generic.List`1<System.Collections.Generic.List`1<backend_eindopdracht_keephealthy.DTO.RegistrationDTO>> backend_eindopdracht_keephealthy.Services.CalculationService::GroupRegisrationsByDay(System.Collections.Generic.List`1<backend_eindopdracht_keephealthy.DTO.RegistrationDTO>)": {
+          "Lines": {
+            "12": 3,
+            "13": 15,
+            "14": 3
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<backend_eindopdracht_keephealthy.DTO.RegistrationDayResultDTO> backend_eindopdracht_keephealthy.Services.CalculationService::CalculateTotalValueOfGroupedRegistrations(System.Collections.Generic.List`1<System.Collections.Generic.List`1<backend_eindopdracht_keephealthy.DTO.RegistrationDTO>>)": {
+          "Lines": {
+            "16": 4,
+            "17": 4,
+            "18": 20,
+            "19": 4,
+            "20": 4,
+            "21": 28,
+            "22": 8,
+            "23": 8,
+            "24": 8,
+            "25": 4,
+            "26": 4,
+            "27": 4,
+            "28": 4
+          },
+          "Branches": [
+            {
+              "Line": 18,
+              "Offset": 201,
+              "EndOffset": 20,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 4
+            },
+            {
+              "Line": 21,
+              "Offset": 78,
+              "EndOffset": 50,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 8
+            },
+            {
+              "Line": 21,
+              "Offset": 78,
+              "EndOffset": 80,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 4
+            },
+            {
+              "Line": 18,
+              "Offset": 201,
+              "EndOffset": 206,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 4
+            }
+          ]
+        },
+        "System.Boolean backend_eindopdracht_keephealthy.Services.CalculationService::IsValidTimeString(System.String)": {
+          "Lines": {
+            "31": 13,
+            "32": 13,
+            "33": 13,
+            "35": 13,
+            "36": 13,
+            "37": 11,
+            "38": 4,
+            "39": 2,
+            "41": 11,
+            "42": 11,
+            "43": 9,
+            "44": 2,
+            "45": 2,
+            "46": 2,
+            "49": 12,
+            "50": 7,
+            "52": 5,
+            "53": 9
+          },
+          "Branches": [
+            {
+              "Line": 49,
+              "Offset": 71,
+              "EndOffset": 73,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 6
+            },
+            {
+              "Line": 49,
+              "Offset": 71,
+              "EndOffset": 79,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            },
+            {
+              "Line": 49,
+              "Offset": 82,
+              "EndOffset": 84,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 3
+            },
+            {
+              "Line": 49,
+              "Offset": 82,
+              "EndOffset": 88,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 6
+            },
+            {
+              "Line": 50,
+              "Offset": 91,
+              "EndOffset": 93,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 5
+            },
+            {
+              "Line": 50,
+              "Offset": 91,
+              "EndOffset": 99,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 50,
+              "Offset": 104,
+              "EndOffset": 106,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            },
+            {
+              "Line": 50,
+              "Offset": 104,
+              "EndOffset": 110,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 5
+            }
+          ]
+        }
+      }
+    },
     "D:\\MTS4-2MCT1-WAD\\BackEndDev\\Eindopdracht\\backend-eindopdracht-keephealthy\\Services\\LoginService.cs": {
       "backend_eindopdracht_keephealthy.Services.LoginService": {
         "System.Void backend_eindopdracht_keephealthy.Services.LoginService::.ctor(AutoMapper.IMapper,backend_eindopdracht_keephealthy.Repositories.IUserRepository)": {
@@ -243,14 +394,6 @@
           "Branches": []
         }
       },
-      "backend_eindopdracht_keephealthy.Services.RegistrationService/<>c": {
-        "System.DateTime backend_eindopdracht_keephealthy.Services.RegistrationService/<>c::<GetLatestRegistrationsDayTotalByTopic>b__6_0(backend_eindopdracht_keephealthy.DTO.RegistrationDTO)": {
-          "Lines": {
-            "84": 8
-          },
-          "Branches": []
-        }
-      },
       "backend_eindopdracht_keephealthy.Services.RegistrationService/<GetLatestRegistrationsDayTotalByTopic>d__6": {
         "System.Void backend_eindopdracht_keephealthy.Services.RegistrationService/<GetLatestRegistrationsDayTotalByTopic>d__6::MoveNext()": {
           "Lines": {
@@ -258,67 +401,24 @@
             "81": 2,
             "82": 2,
             "83": 2,
-            "85": 8,
-            "86": 1,
-            "87": 1,
-            "88": 13,
-            "89": 5,
-            "90": 5,
-            "91": 5,
-            "92": 1,
-            "93": 1,
-            "94": 2,
-            "96": 0,
-            "97": 0,
-            "98": 0,
-            "100": 2
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "89": 2
           },
-          "Branches": [
-            {
-              "Line": 85,
-              "Offset": 708,
-              "EndOffset": 324,
-              "Path": 1,
-              "Ordinal": 3,
-              "Hits": 1
-            },
-            {
-              "Line": 88,
-              "Offset": 438,
-              "EndOffset": 377,
-              "Path": 1,
-              "Ordinal": 1,
-              "Hits": 5
-            },
-            {
-              "Line": 88,
-              "Offset": 438,
-              "EndOffset": 440,
-              "Path": 0,
-              "Ordinal": 0,
-              "Hits": 1
-            },
-            {
-              "Line": 85,
-              "Offset": 708,
-              "EndOffset": 713,
-              "Path": 0,
-              "Ordinal": 2,
-              "Hits": 2
-            }
-          ]
+          "Branches": []
         }
       },
       "backend_eindopdracht_keephealthy.Services.RegistrationService/<DeleteLatestRegistrationFromTopic>d__7": {
         "System.Void backend_eindopdracht_keephealthy.Services.RegistrationService/<DeleteLatestRegistrationFromTopic>d__7::MoveNext()": {
           "Lines": {
-            "105": 2,
-            "107": 2,
-            "108": 2,
-            "110": 0,
-            "111": 0,
-            "112": 0,
-            "114": 2
+            "94": 2,
+            "96": 2,
+            "97": 2,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "103": 2
           },
           "Branches": []
         }
@@ -326,13 +426,13 @@
       "backend_eindopdracht_keephealthy.Services.RegistrationService/<DeleteRegistration>d__8": {
         "System.Void backend_eindopdracht_keephealthy.Services.RegistrationService/<DeleteRegistration>d__8::MoveNext()": {
           "Lines": {
-            "117": 0,
-            "119": 0,
-            "120": 0,
-            "122": 0,
-            "123": 0,
-            "124": 0,
-            "126": 0
+            "106": 0,
+            "108": 0,
+            "109": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "115": 0
           },
           "Branches": []
         }
@@ -340,13 +440,13 @@
       "backend_eindopdracht_keephealthy.Services.RegistrationService/<DeleteAllRegistrationsFromUserFromTopic>d__9": {
         "System.Void backend_eindopdracht_keephealthy.Services.RegistrationService/<DeleteAllRegistrationsFromUserFromTopic>d__9::MoveNext()": {
           "Lines": {
-            "129": 0,
-            "131": 0,
-            "132": 0,
-            "134": 0,
-            "135": 0,
-            "136": 0,
-            "138": 0
+            "118": 0,
+            "120": 0,
+            "121": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "127": 0
           },
           "Branches": []
         }
@@ -1591,31 +1691,31 @@
       "backend_eindopdracht_keephealthy.DTO.RegistrationDayResultDTO": {
         "System.String backend_eindopdracht_keephealthy.DTO.RegistrationDayResultDTO::get_GoogleUserId()": {
           "Lines": {
-            "9": 2
+            "9": 6
           },
           "Branches": []
         },
         "System.Guid backend_eindopdracht_keephealthy.DTO.RegistrationDayResultDTO::get_TopicId()": {
           "Lines": {
-            "11": 2
+            "11": 6
           },
           "Branches": []
         },
         "backend_eindopdracht_keephealthy.DTO.TopicDTO backend_eindopdracht_keephealthy.DTO.RegistrationDayResultDTO::get_Topic()": {
           "Lines": {
-            "13": 2
+            "13": 6
           },
           "Branches": []
         },
         "System.Double backend_eindopdracht_keephealthy.DTO.RegistrationDayResultDTO::get_Value()": {
           "Lines": {
-            "14": 2
+            "14": 7
           },
           "Branches": []
         },
-        "System.String backend_eindopdracht_keephealthy.DTO.RegistrationDayResultDTO::get_Time()": {
+        "System.DateTime backend_eindopdracht_keephealthy.DTO.RegistrationDayResultDTO::get_Time()": {
           "Lines": {
-            "15": 2
+            "15": 6
           },
           "Branches": []
         }
@@ -1625,37 +1725,37 @@
       "backend_eindopdracht_keephealthy.DTO.RegistrationDTO": {
         "System.Guid backend_eindopdracht_keephealthy.DTO.RegistrationDTO::get_RegistrationId()": {
           "Lines": {
-            "10": 56
+            "10": 107
           },
           "Branches": []
         },
         "System.String backend_eindopdracht_keephealthy.DTO.RegistrationDTO::get_GoogleUserId()": {
           "Lines": {
-            "13": 67
+            "13": 122
           },
           "Branches": []
         },
         "System.Guid backend_eindopdracht_keephealthy.DTO.RegistrationDTO::get_TopicId()": {
           "Lines": {
-            "16": 85
+            "16": 140
           },
           "Branches": []
         },
         "backend_eindopdracht_keephealthy.DTO.TopicDTO backend_eindopdracht_keephealthy.DTO.RegistrationDTO::get_Topic()": {
           "Lines": {
-            "18": 63
+            "18": 68
           },
           "Branches": []
         },
         "System.Double backend_eindopdracht_keephealthy.DTO.RegistrationDTO::get_Value()": {
           "Lines": {
-            "22": 86
+            "22": 141
           },
           "Branches": []
         },
         "System.DateTime backend_eindopdracht_keephealthy.DTO.RegistrationDTO::get_Time()": {
           "Lines": {
-            "23": 65
+            "23": 121
           },
           "Branches": []
         }
@@ -1699,19 +1799,19 @@
       "backend_eindopdracht_keephealthy.DTO.TopicDTO": {
         "System.Guid backend_eindopdracht_keephealthy.DTO.TopicDTO::get_TopicId()": {
           "Lines": {
-            "8": 30
+            "8": 32
           },
           "Branches": []
         },
         "System.String backend_eindopdracht_keephealthy.DTO.TopicDTO::get_Description()": {
           "Lines": {
-            "11": 30
+            "11": 32
           },
           "Branches": []
         },
         "System.String backend_eindopdracht_keephealthy.DTO.TopicDTO::get_Unit()": {
           "Lines": {
-            "14": 30
+            "14": 32
           },
           "Branches": []
         }
