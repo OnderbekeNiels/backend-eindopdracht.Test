@@ -1500,30 +1500,30 @@
           "Lines": {
             "16": 9,
             "17": 9,
-            "19": 9,
-            "20": 3,
+            "20": 9,
             "21": 3,
-            "22": 2,
+            "22": 3,
             "23": 2,
-            "25": 1,
-            "27": 6,
-            "28": 3,
+            "24": 2,
+            "26": 1,
+            "28": 6,
             "29": 3,
-            "30": 2,
+            "30": 3,
             "31": 2,
-            "33": 1,
-            "35": 3,
+            "32": 2,
+            "34": 1,
             "36": 3,
             "37": 3,
-            "38": 2,
+            "38": 3,
             "39": 2,
-            "41": 1,
-            "42": 3,
-            "43": 9
+            "40": 2,
+            "42": 1,
+            "43": 3,
+            "44": 9
           },
           "Branches": [
             {
-              "Line": 19,
+              "Line": 20,
               "Offset": 36,
               "EndOffset": 38,
               "Path": 0,
@@ -1531,7 +1531,7 @@
               "Hits": 3
             },
             {
-              "Line": 21,
+              "Line": 22,
               "Offset": 54,
               "EndOffset": 56,
               "Path": 0,
@@ -1539,7 +1539,7 @@
               "Hits": 2
             },
             {
-              "Line": 21,
+              "Line": 22,
               "Offset": 54,
               "EndOffset": 75,
               "Path": 1,
@@ -1547,7 +1547,7 @@
               "Hits": 1
             },
             {
-              "Line": 21,
+              "Line": 22,
               "Offset": 78,
               "EndOffset": 80,
               "Path": 0,
@@ -1555,7 +1555,7 @@
               "Hits": 2
             },
             {
-              "Line": 21,
+              "Line": 22,
               "Offset": 78,
               "EndOffset": 97,
               "Path": 1,
@@ -1563,7 +1563,7 @@
               "Hits": 1
             },
             {
-              "Line": 19,
+              "Line": 20,
               "Offset": 36,
               "EndOffset": 103,
               "Path": 1,
@@ -1571,7 +1571,7 @@
               "Hits": 6
             },
             {
-              "Line": 27,
+              "Line": 28,
               "Offset": 128,
               "EndOffset": 130,
               "Path": 0,
@@ -1579,7 +1579,7 @@
               "Hits": 3
             },
             {
-              "Line": 29,
+              "Line": 30,
               "Offset": 146,
               "EndOffset": 148,
               "Path": 0,
@@ -1587,7 +1587,7 @@
               "Hits": 2
             },
             {
-              "Line": 29,
+              "Line": 30,
               "Offset": 146,
               "EndOffset": 167,
               "Path": 1,
@@ -1595,7 +1595,7 @@
               "Hits": 1
             },
             {
-              "Line": 29,
+              "Line": 30,
               "Offset": 172,
               "EndOffset": 174,
               "Path": 0,
@@ -1603,7 +1603,7 @@
               "Hits": 2
             },
             {
-              "Line": 29,
+              "Line": 30,
               "Offset": 172,
               "EndOffset": 188,
               "Path": 1,
@@ -1611,7 +1611,7 @@
               "Hits": 1
             },
             {
-              "Line": 27,
+              "Line": 28,
               "Offset": 128,
               "EndOffset": 191,
               "Path": 1,
@@ -1619,7 +1619,7 @@
               "Hits": 3
             },
             {
-              "Line": 35,
+              "Line": 36,
               "Offset": 216,
               "EndOffset": 218,
               "Path": 0,
@@ -1627,7 +1627,7 @@
               "Hits": 3
             },
             {
-              "Line": 37,
+              "Line": 38,
               "Offset": 234,
               "EndOffset": 236,
               "Path": 0,
@@ -1635,7 +1635,7 @@
               "Hits": 2
             },
             {
-              "Line": 37,
+              "Line": 38,
               "Offset": 234,
               "EndOffset": 255,
               "Path": 1,
@@ -1643,7 +1643,7 @@
               "Hits": 1
             },
             {
-              "Line": 37,
+              "Line": 38,
               "Offset": 260,
               "EndOffset": 262,
               "Path": 0,
@@ -1651,7 +1651,7 @@
               "Hits": 2
             },
             {
-              "Line": 37,
+              "Line": 38,
               "Offset": 260,
               "EndOffset": 276,
               "Path": 1,
@@ -1659,7 +1659,7 @@
               "Hits": 1
             },
             {
-              "Line": 35,
+              "Line": 36,
               "Offset": 216,
               "EndOffset": 277,
               "Path": 1,
@@ -1725,19 +1725,19 @@
       "backend_eindopdracht_keephealthy.DTO.RegistrationDTO": {
         "System.Guid backend_eindopdracht_keephealthy.DTO.RegistrationDTO::get_RegistrationId()": {
           "Lines": {
-            "10": 107
+            "10": 119
           },
           "Branches": []
         },
         "System.String backend_eindopdracht_keephealthy.DTO.RegistrationDTO::get_GoogleUserId()": {
           "Lines": {
-            "13": 122
+            "13": 134
           },
           "Branches": []
         },
         "System.Guid backend_eindopdracht_keephealthy.DTO.RegistrationDTO::get_TopicId()": {
           "Lines": {
-            "16": 140
+            "16": 152
           },
           "Branches": []
         },
@@ -1749,13 +1749,13 @@
         },
         "System.Double backend_eindopdracht_keephealthy.DTO.RegistrationDTO::get_Value()": {
           "Lines": {
-            "22": 141
+            "22": 153
           },
           "Branches": []
         },
         "System.DateTime backend_eindopdracht_keephealthy.DTO.RegistrationDTO::get_Time()": {
           "Lines": {
-            "23": 121
+            "23": 133
           },
           "Branches": []
         }
@@ -1765,31 +1765,31 @@
       "backend_eindopdracht_keephealthy.DTO.SleepSettingDTO": {
         "System.Guid backend_eindopdracht_keephealthy.DTO.SleepSettingDTO::get_SleepSettingId()": {
           "Lines": {
-            "8": 15
+            "9": 15
           },
           "Branches": []
         },
         "System.String backend_eindopdracht_keephealthy.DTO.SleepSettingDTO::get_GoogleUserId()": {
           "Lines": {
-            "11": 18
+            "12": 18
           },
           "Branches": []
         },
         "System.String backend_eindopdracht_keephealthy.DTO.SleepSettingDTO::get_SleepTime()": {
           "Lines": {
-            "14": 18
+            "15": 18
           },
           "Branches": []
         },
         "System.String backend_eindopdracht_keephealthy.DTO.SleepSettingDTO::get_WakeUpTime()": {
           "Lines": {
-            "17": 18
+            "18": 18
           },
           "Branches": []
         },
         "System.Boolean backend_eindopdracht_keephealthy.DTO.SleepSettingDTO::get_SendNotifications()": {
           "Lines": {
-            "20": 16
+            "21": 16
           },
           "Branches": []
         }
@@ -1812,6 +1812,132 @@
         "System.String backend_eindopdracht_keephealthy.DTO.TopicDTO::get_Unit()": {
           "Lines": {
             "14": 32
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MTS4-2MCT1-WAD\\BackEndDev\\Eindopdracht\\backend-eindopdracht-keephealthy\\DTO\\CustomAttributes\\ValidTimeStringAttribute.cs": {
+      "backend_eindopdracht_keephealthy.DTO.CustomAttributes.ValidTimeStringAttribute": {
+        "System.String backend_eindopdracht_keephealthy.DTO.CustomAttributes.ValidTimeStringAttribute::GetErrorMessage()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.ComponentModel.DataAnnotations.ValidationResult backend_eindopdracht_keephealthy.DTO.CustomAttributes.ValidTimeStringAttribute::IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)": {
+          "Lines": {
+            "16": 12,
+            "17": 12,
+            "18": 12,
+            "20": 14,
+            "21": 2,
+            "24": 10,
+            "27": 10,
+            "28": 10,
+            "29": 8,
+            "30": 2,
+            "31": 2,
+            "32": 2,
+            "35": 8,
+            "36": 8,
+            "37": 6,
+            "38": 2,
+            "39": 2,
+            "40": 2,
+            "43": 6,
+            "44": 6,
+            "48": 6,
+            "49": 12
+          },
+          "Branches": [
+            {
+              "Line": 20,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 20,
+              "Offset": 11,
+              "EndOffset": 31,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 10
+            },
+            {
+              "Line": 43,
+              "Offset": 110,
+              "EndOffset": 112,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 6
+            },
+            {
+              "Line": 43,
+              "Offset": 110,
+              "EndOffset": 118,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 43,
+              "Offset": 123,
+              "EndOffset": 125,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 43,
+              "Offset": 123,
+              "EndOffset": 139,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 6
+            },
+            {
+              "Line": 44,
+              "Offset": 142,
+              "EndOffset": 144,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 6
+            },
+            {
+              "Line": 44,
+              "Offset": 142,
+              "EndOffset": 150,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 44,
+              "Offset": 155,
+              "EndOffset": 157,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 44,
+              "Offset": 155,
+              "EndOffset": 171,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 6
+            }
+          ]
+        },
+        "System.Void backend_eindopdracht_keephealthy.DTO.CustomAttributes.ValidTimeStringAttribute::.ctor()": {
+          "Lines": {
+            "9": 6,
+            "10": 6,
+            "11": 6
           },
           "Branches": []
         }

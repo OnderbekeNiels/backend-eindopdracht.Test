@@ -1,8 +1,10 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Threading.Tasks;
 using backend_eindopdracht_keephealthy.Configuration;
 using backend_eindopdracht_keephealthy.DTO;
+using backend_eindopdracht_keephealthy.DTO.CustomAttributes;
 using backend_eindopdracht_keephealthy.Services;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Newtonsoft.Json;
@@ -48,6 +50,21 @@ namespace backend_eindopdracht.Test
         public void IsValidTimeString_Should_Return_ArgumentEx(string hour)
         {
             Assert.Throws<ArgumentException>(() => CalculationService.IsValidTimeString(hour));
+        }
+
+        // ! Validation Attribute als unit test.
+
+        // testing custom attributes (does not affect code coverage)
+
+        [Theory]
+        [InlineData("0606")]
+        [InlineData(":06")]
+        [InlineData("00")]
+        [InlineData("wrong")]
+        public void IsValidTimeString_Attribute_Should_Return_ArgumentEx(string hour)
+        {
+            ValidTimeStringAttribute attribute = new ValidTimeStringAttribute();
+            Assert.False(attribute.IsValid(hour));
         }
 
         // ! GroupRegisrationsByDay()
