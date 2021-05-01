@@ -352,26 +352,26 @@ namespace backend_eindopdrachts.Test
 
         // ? UPDATE
 
-        // ! Kan pas getest worden wanneer er een registratie is met een bepaald Id
+        // ! Kan pas getest worden wanneer er een sleep setting is met een bepaald  sleep setting Id
 
-        // [Fact]
-        // public async Task Update_Sleep_Settings_From_User_Should_Be_200()
-        // {
+        [Fact]
+        public async Task Update_Sleep_Settings_From_User_Should_Be_200()
+        {
 
-        //     var sleepSetting = new SleepSettingDTO()
-        //     {
-        //         SleepSettingId = Guid.Parse("fe396c4b-f7c7-4ac2-8f3e-08d909a9f2d2"),
-        //         GoogleUserId = USER_ID_REAL,
-        //         SleepTime = "23:00",
-        //         WakeUpTime = "07:00",
-        //         SendNotifications = true
-        //     };
+            var sleepSetting = new SleepSettingDTO()
+            {
+                SleepSettingId = Guid.Parse("e33fc513-14db-4742-1b6f-08d90b3e9ece"),
+                GoogleUserId = USER_ID_REAL,
+                SleepTime = "23:00",
+                WakeUpTime = "07:00",
+                SendNotifications = true
+            };
 
-        //     string json = JsonConvert.SerializeObject(sleepSetting);
+            string json = JsonConvert.SerializeObject(sleepSetting);
 
-        //     var response = await Client.PutAsync("api/settings/sleepsetting", new StringContent(json, Encoding.UTF8, "application/json"));
-        //     response.StatusCode.Should().Be(HttpStatusCode.OK);
-        // }
+            var response = await Client.PutAsync("api/settings/sleepsetting", new StringContent(json, Encoding.UTF8, "application/json"));
+            response.StatusCode.Should().Be(HttpStatusCode.OK);
+        }
 
         [Fact]
         public async Task Update_Sleep_Settings_From_User_Without_RegistrationId_Should_Be_500()
@@ -392,12 +392,14 @@ namespace backend_eindopdrachts.Test
 
         // ? DELETE
 
-        [Fact]
-        public async Task Delete_Latest_Registration_From_User_From_Topic_Should_Be_204()
-        {
-            var response = await Client.DeleteAsync($"api/registration/latest/{StaticTopics.Sleep_TopicId}/{USER_ID_REAL}");
-            response.StatusCode.Should().Be(HttpStatusCode.NoContent);
-        }
+        // ! Deletes pas uitvoeren na aantal keren input, anders zullen er foute testen onstaan omdat de write iets trager loopt.
+
+        // [Fact]
+        // public async Task Delete_Latest_Registration_From_User_From_Topic_Should_Be_204()
+        // {
+        //     var response = await Client.DeleteAsync($"api/registration/latest/{StaticTopics.Sleep_TopicId}/{USER_ID_REAL}");
+        //     response.StatusCode.Should().Be(HttpStatusCode.NoContent);
+        // }
 
         [Fact]
         // with wrong topic id
@@ -412,31 +414,31 @@ namespace backend_eindopdrachts.Test
         // [Fact]
         // public async Task Delete_Registration_From_User_With_RegistrationId_Should_Be_204()
         // {
-        //     var response = await Client.DeleteAsync("api/registration/02fade1d-c0bb-4f09-ad27-08d908d7e3f5");
+        //     var response = await Client.DeleteAsync("api/registration/2bd56fb1-d4a5-4924-fbea-08d909a4b00a");
         //     response.StatusCode.Should().Be(HttpStatusCode.NoContent);
         // }
 
-        // [Fact]
-        // public async Task Delete_Registration_From_User_With_RegistrationId_Should_Be_404()
-        // {
-        //     // user doesnt have any registration from this topic
-        //     var response = await Client.DeleteAsync("api/registration/dccf51e1-90a8-5555-15ca-08d909ab4f76");
-        //     response.StatusCode.Should().Be(HttpStatusCode.NotFound);
-        // }
+        [Fact]
+        public async Task Delete_Registration_From_User_With_RegistrationId_Should_Be_404()
+        {
+            // user doesnt have any registration from this topic
+            var response = await Client.DeleteAsync("api/registration/dccf51e1-90a8-5555-15ca-08d909ab4f76");
+            response.StatusCode.Should().Be(HttpStatusCode.NotFound);
+        }
 
-        // [Fact]
-        // public async Task Delete_All_Registration_From_User_From_Topic_Should_Be_204()
-        // {
-        //     var response = await Client.DeleteAsync($"api/registration/{StaticTopics.Sleep_TopicId}/{USER_ID_REAL}");
-        //     response.StatusCode.Should().Be(HttpStatusCode.NoContent);
-        // }
+        // // [Fact]
+        // // public async Task Delete_All_Registration_From_User_From_Topic_Should_Be_204()
+        // // {
+        // //     var response = await Client.DeleteAsync($"api/registration/{StaticTopics.Sleep_TopicId}/{USER_ID_REAL}");
+        // //     response.StatusCode.Should().Be(HttpStatusCode.NoContent);
+        // // }
 
-        // [Fact]
-        // public async Task Delete_All_Registration_From_User_From_Topic_Should_Be_404()
-        // {
-        //     // user doesnt have any registrations from this topic
-        //     var response = await Client.DeleteAsync($"api/registration/{TOPIC_ID_FAKE}/{USER_ID_REAL}");
-        //     response.StatusCode.Should().Be(HttpStatusCode.NotFound);
-        // }
+        [Fact]
+        public async Task Delete_All_Registration_From_User_From_Topic_Should_Be_404()
+        {
+            // user doesnt have any registrations from this topic
+            var response = await Client.DeleteAsync($"api/registration/{TOPIC_ID_FAKE}/{USER_ID_REAL}");
+            response.StatusCode.Should().Be(HttpStatusCode.NotFound);
+        }
     }
 }
